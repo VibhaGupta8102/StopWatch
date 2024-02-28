@@ -1,0 +1,39 @@
+*{
+    margin:0% ;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.container{
+    background-color: #000000;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.time{
+    font-size: 5rem;
+    color: #ffffff;
+}
+
+.btn{
+    display: flex;
+    flex-direction: row;
+}
+
+button{
+  padding: 20px;
+  width: 200px;
+  border-radius: 50px;
+  margin: 30px;
+  cursor: pointer;
+  font: 100 1.5rem sans-serif ;
+  box-shadow: 5px 5px 5px rgb(75, 74, 74) ;
+}
+
+button:hover{
+    background-color: hsl(0, 2%, 37%);
+    color: #fffdfd;
+}
